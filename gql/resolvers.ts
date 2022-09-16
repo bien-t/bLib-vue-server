@@ -184,7 +184,7 @@ export const resolvers = {
                     payload.errors.push({ message: 'Authentication failed' })
                 }
             });
-            if (!args.password || !args.password) {
+            if (!args.password || !args.passwordConfirm) {
                 payload.errors.push({
                     message: 'Invalid password'
                 });
