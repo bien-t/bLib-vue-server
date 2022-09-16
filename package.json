@@ -1,0 +1,25 @@
+{
+  "name": "blib-server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "bcrypt": "^5.0.1",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "ts-node-dev": "^2.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^18.6.3",
+    "typescript": "^4.7.4"
+
+  },
+  "devDependencies": {
+
+  }
+}
